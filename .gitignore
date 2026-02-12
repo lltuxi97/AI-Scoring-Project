@@ -1,4 +1,36 @@
-venv/
-*.db
+# Byte-code files
+*.pyc
+*.exe
+*.bat
+*.cfg
+*.h
+*.ps1
+*.fish
 __pycache__/
-static/uploads/* 
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Development/testing artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Flask-specific
+instance/
+
+# Distribution/build
+dist/
+build/
+*.egg-info/
+
+# Specific IDE/editor files (optional)
+.idea/  # For PyCharm/IntelliJ
+.vscode/ # For VS Code (only if you want to ignore workspace settings)
+
+# Environment variables
+.env
+.flaskenv
